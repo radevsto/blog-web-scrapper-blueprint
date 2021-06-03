@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-import modules  # This will not link correctly if you use from imports
+import module  # This will not link correctly if you use from imports
 
 
 def some_helper(argument):
@@ -27,9 +27,9 @@ def parse_args():  # pragma: no cover
 def main(args):  # pragma: no cover
     """Main."""
     print(f"args: {args}")
-    print(f"example function result: {modules.example_function()}")
+    print(f"example function result: {module.example_function()}")
 
-    example_inst = modules.Example()
+    example_inst = module.Example()
     print(
         f"example class result:"
         f"\n - instance: {example_inst}"

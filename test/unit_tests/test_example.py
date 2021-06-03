@@ -1,5 +1,5 @@
 import pytest
-from modules.example import example_function, Example
+from module.example import example_function, Example
 from main import some_helper
 
 

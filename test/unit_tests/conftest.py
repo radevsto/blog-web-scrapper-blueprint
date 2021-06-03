@@ -15,7 +15,7 @@ sys.path.append(
     os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 )
 
-from modules import example_function as example_function
+from module import example_function as example_function
 
 
 @pytest.fixture
