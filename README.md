@@ -1,2 +1,3 @@
-# blog-web-parser-for-new-employees
-Parsing blogs
+# Web scrapper blueprint
+
+# Have fun!
